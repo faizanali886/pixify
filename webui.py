@@ -83,8 +83,8 @@ biniou_global_auth_message = "Welcome to biniou !"
 biniou_global_share = False
 biniou_global_steps_max = 100
 biniou_global_batch_size_max = 4
-biniou_global_width_max_img_create = 4096
-biniou_global_height_max_img_create = 4096
+biniou_global_width_max_img_create = 1280
+biniou_global_height_max_img_create = 1280
 biniou_global_width_max_img_modify = 8192
 biniou_global_height_max_img_modify = 8192
 biniou_global_sd15_width = 512
@@ -93,13 +93,6 @@ biniou_global_sdxl_width = 1024
 biniou_global_sdxl_height = 1024
 biniou_global_gfpgan = True
 biniou_global_tkme = 0.6
-biniou_global_clipskip = 0
-biniou_global_img_fmt = "png"
-biniou_global_text_metadatas = True
-biniou_global_img_exif = True
-biniou_global_gif_exif = True
-biniou_global_mp4_metadatas = True
-biniou_global_audio_metadatas = True
 
 if test_cfg_exist("settings") :
     with open(".ini/settings.cfg", "r", encoding="utf-8") as fichier:
